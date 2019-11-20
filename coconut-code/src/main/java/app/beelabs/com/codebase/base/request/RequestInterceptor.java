@@ -24,7 +24,7 @@ import okhttp3.Response;
 import okio.Buffer;
 
 public class RequestInterceptor implements Interceptor {
-    private static String GENERAL_URL = "http://10.0.2.2:8093/geturl/encrsa_sha1";
+    private static String GENERAL_URL = "http://indosat-dev.ottodigital.id/api/v1/mobile-secure1";
     private static String USER_AGENT_VALUE = "Android";
     private GeneralBodyRequest mBody = new GeneralBodyRequest();
     private GeneralBodyRequest.Header mHeaders = mBody.new Header();
